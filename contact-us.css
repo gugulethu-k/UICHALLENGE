@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #c0bfbf;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-info {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info .item {
+  width: 300px;
+  margin: 10px;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 5px;
+}
+
+.contact-info .item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info .item p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.contact-info .item a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.contact-info .item a:hover {
+  text-decoration: underline;
+}

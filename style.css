@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F0F0;
+}
+
+#entire-page {
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  width:100px;
+}
+
+.page-navigation {
+  margin-right: 1em;
+  float: right;
+  color: blue;
+}
+
+#video {
+  height: 450px;
+}
+
+#video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#bio {
+  padding: 4em;
+  float: left;
+  width: 50%;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#my-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#my-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#google-maps {
+  width: 100%;
+  height: 100%;
+}
